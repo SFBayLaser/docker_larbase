@@ -7,6 +7,6 @@ RUN mkdir larsoft && \
     wget http://scisoft.fnal.gov/scisoft/bundles/tools/buildFW && \
     chmod +x buildFW && \
     mkdir products && \
-    ./buildFW -b e19 -s s106 products/ debug larbase-09.16.01 && \
-    ./buildFW -b e19 -s s106 products/ prof larbase-09.16.01
+    ./buildFW -b e19 -s s106 products/ debug larbase-v09_16_01 && \
+    ./buildFW -b e19 -s s106 products/ prof larbase-v09_16_01
 
