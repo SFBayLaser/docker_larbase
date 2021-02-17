@@ -4,7 +4,7 @@ LABEL Maintainer: Tracy Usher
 # Start by getting the underlying code required for the base packages
 RUN mkdir larsoft && \
     cd larsoft && \
-    mkdir products && |
+    mkdir products && \
     cd products && \
     wget http://scisoft.fnal.gov/scisoft/bundles/tools/pullProducts && \
     chmod +x pullProducts && \
